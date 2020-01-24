@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`https://github.com/xOQx/SPAM`);
+  http.get(`http://global-tortoise.glitch.me/`);
 }, 280000);
 
 // طبعا الكود هيبقا صعب انك تفهم لوحدك لنو معقد شويتين لكن فكرتو سهلة وحاولت اوفرلكم حاجات كتير مثل انك تقدر تشغل 10 توكانات ف الكود ده
